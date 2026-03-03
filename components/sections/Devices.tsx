@@ -12,7 +12,9 @@ export function Devices() {
   return (
     <section className="py-20 border-y border-white/5">
       <div className="container mx-auto px-4">
-        <h3 className="text-2xl font-bold text-center mb-12 uppercase tracking-widest text-primary/80">Compatível com Seus Dispositivos</h3>
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 uppercase tracking-widest text-primary/80">
+          Compatível com Smart TV, Android, TV Box e iPhone
+        </h2>
         <div className="flex flex-wrap justify-center gap-8 md:gap-16">
           {devices.map((device, index) => (
             <div key={index} className="flex flex-col items-center gap-3 opacity-60 hover:opacity-100 transition-opacity">

@@ -39,9 +39,9 @@ export function Benefits() {
     <section id="beneficios" className="py-20 bg-background/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Por que escolher {siteConfig.name}?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Assistir Futebol Ao Vivo Sem Travar</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Oferecemos a melhor infraestrutura tecnológica para garantir sua diversão sem interrupções.
+            Filmes e Séries Atualizados Diariamente com a melhor tecnologia anti-travamento do mercado.
           </p>
         </div>
 

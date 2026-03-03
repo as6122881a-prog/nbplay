@@ -13,19 +13,21 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} - Melhor IPTV 4K | Canais Ao Vivo e Filmes`,
+    default: "NB Play TV – IPTV Premium com Filmes, Séries e Canais Ao Vivo",
     template: `%s | ${siteConfig.name}`
   },
-  description: `Assine o ${siteConfig.name}, o melhor serviço de IPTV do Brasil. Mais de 80.000 conteúdos em 4K, esportes ao vivo e séries com estabilidade total. Teste grátis agora!`,
+  description: "O melhor IPTV Premium do Brasil. Assista Futebol ao Vivo, Filmes Online e Séries em HD. Tenha acesso a uma Lista IPTV 4K estável, sem travamentos e compatível com todos os dispositivos.",
   keywords: [
-    'iptv premium', 
-    'melhor iptv 2024', 
-    'canais 4k online', 
-    'nb play iptv oficial', 
-    'assinatura tv online', 
-    'assistir futebol ao vivo', 
-    'iptv sem travar', 
-    'dr neilton brito iptv'
+    'IPTV Premium', 
+    'IPTV Brasil', 
+    'Assistir Futebol ao Vivo', 
+    'Filmes Online', 
+    'Séries HD', 
+    'IPTV Estável', 
+    'Lista IPTV 4K',
+    'NB Play TV',
+    'TV Box',
+    'Smart TV'
   ],
   authors: [{ name: siteConfig.owner }],
   robots: 'index, follow',

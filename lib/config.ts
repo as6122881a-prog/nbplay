@@ -33,19 +33,19 @@ export const siteConfig = {
   // CONFIGURAÇÃO DOS PLANOS
   plans: [
     {
-      name: "Plano de Teste",
-      price: "R$ 1,50",
-      period: "/teste",
-      features: ["Validação de sistema", "Teste de recebimento", "Suporte imediato"],
-      buttonText: "Testar R$ 1,50",
-      highlight: false
-    },
-    {
       name: "Plano Mensal",
       price: "R$ 24,99",
       period: "/mês",
       features: ["Acesso em 1 tela", "Canais em 4K/Full HD", "Grade completa de esportes", "Suporte via WhatsApp", "Liberação em 5 minutos"],
       buttonText: "Assinar Agora",
+      highlight: false
+    },
+    {
+      name: "Plano Trimestral",
+      price: "R$ 69,99",
+      period: "/3 meses",
+      features: ["Desconto de 7%", "Canais 4K & On Demand", "Filmes e Séries Premium", "Suporte VIP", "Liberação Imediata"],
+      buttonText: "Assinar Trimestral",
       highlight: false
     },
     {
