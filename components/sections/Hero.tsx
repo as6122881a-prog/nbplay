@@ -24,20 +24,20 @@ export function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-tight animate-fade-in-up" style={{animationDelay: '0.1s'}}>
-          Entretenimento <span className="text-primary italic text-glow">Ultra HD</span> Sem Interrupções
+          IPTV Premium no Brasil com <span className="text-primary italic text-glow">Qualidade 4K</span>
         </h1>
         
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-          Acesse a maior grade de conteúdos do mundo em qualquer dispositivo. Estabilidade premium e suporte VIP para você maratonar sem estresse.
+          Acesse a maior grade de conteúdos do mundo. Filmes, séries e canais ao vivo com estabilidade total e suporte VIP.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{animationDelay: '0.3s'}}>
           <Button size="lg" className="h-14 px-8 text-lg font-bold neon-glow w-full sm:w-auto bg-primary hover:bg-primary/90" asChild>
-            <a href="#planos">Escolher Meu Plano</a>
+            <a href="#planos">VER PLANOS DISPONÍVEIS</a>
           </Button>
           <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-bold w-full sm:w-auto border-white/10 hover:bg-white/5" asChild>
-            <a href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent("Olá, vi o site e quero um teste grátis no NB Play!")}`} target="_blank">
-              Solicitar Teste Grátis
+            <a href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent("Olá, gostaria de saber mais sobre o NB Play IPTV!")}`} target="_blank">
+              Falar no WhatsApp
             </a>
           </Button>
         </div>

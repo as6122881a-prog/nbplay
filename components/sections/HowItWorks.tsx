@@ -4,7 +4,7 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Chama no WhatsApp",
-    description: "Tire suas dúvidas ou peça um teste grátis com nossa equipe."
+    description: "Tire suas dúvidas e escolha o melhor plano para você."
   },
   {
     icon: CreditCard,
