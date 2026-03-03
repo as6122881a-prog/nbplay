@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Futuristic digital background",
+      "imageUrl": "https://images.unsplash.com/photo-1720962158897-870c56fbb373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neSUyMGRpZ2l0YWx8ZW58MHx8fHwxNzcyNDgxMTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic technology digital"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Happy user avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1594616838951-c155f8d978a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzcyNDE1MDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Happy user avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1599566147214-ce487862ea4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzcyNDE1MDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Happy user avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzcyNDE1MDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "logo",
+      "description": "NB Play Brand Logo - Dr. Neilton Brito",
+      "imageUrl": "https://storage.googleapis.com/fetch-api-7901.appspot.com/a9c13e55-0810-4f57-893d-4299b8417531.png",
+      "imageHint": "logo profile"
+    }
+  ]
+}

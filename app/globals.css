@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 25% 4%;
+    --foreground: 0 0% 98%;
+    --card: 230 25% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 230 25% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 230 20% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 230 20% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 230 25% 4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 20% 15%;
+    --input: 230 20% 15%;
+    --ring: 210 100% 50%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[#02040a] text-foreground selection:bg-primary/30;
+    background-image: 
+      radial-gradient(circle at 50% 0%, hsla(210, 100%, 50%, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 0% 100%, hsla(180, 100%, 50%, 0.05) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+.neon-glow {
+  box-shadow: 0 0 25px hsla(210, 100% , 50%, 0.4);
+}
+
+.neon-glow-accent {
+  box-shadow: 0 0 25px hsla(180, 100% , 50%, 0.4);
+}
+
+.glass-card {
+  @apply bg-card/40 backdrop-blur-xl border border-white/5 transition-all duration-500 ease-out hover:translate-y-[-8px] hover:shadow-2xl hover:shadow-primary/10 hover:bg-card/60;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Cursor Visível para melhor navegação */
+* {
+  cursor: auto !important;
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out forwards;
+}
