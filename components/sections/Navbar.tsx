@@ -19,10 +19,11 @@ export function Navbar() {
         </Link>
         
         <div className="hidden lg:flex items-center gap-8">
-          <Link href="#beneficios" className="text-sm font-medium hover:text-primary transition-colors">Benefícios</Link>
-          <Link href="#planos" className="text-sm font-medium hover:text-primary transition-colors">Planos</Link>
-          <Link href="#como-funciona" className="text-sm font-medium hover:text-primary transition-colors">Como Funciona</Link>
-          <Link href="#faq" className="text-sm font-medium hover:text-primary transition-colors">FAQ</Link>
+          <Link href="/planos" className="text-sm font-medium hover:text-primary transition-colors">Planos</Link>
+          <Link href="/sobre" className="text-sm font-medium hover:text-primary transition-colors">Sobre</Link>
+          <Link href="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
+          <Link href="/faq" className="text-sm font-medium hover:text-primary transition-colors">FAQ</Link>
+          <Link href="/contato" className="text-sm font-medium hover:text-primary transition-colors">Contato</Link>
         </div>
 
         <div className="flex items-center gap-4">
@@ -36,7 +37,7 @@ export function Navbar() {
           </a>
           <Button asChild variant="outline" className="hidden sm:flex border-primary text-primary hover:bg-primary hover:text-white neon-glow rounded-full px-6">
             <a href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappMessage)}`} target="_blank">
-              Teste Grátis
+              Falar no WhatsApp
             </a>
           </Button>
         </div>

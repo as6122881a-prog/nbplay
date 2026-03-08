@@ -40,10 +40,11 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-6 uppercase tracking-wider text-sm text-primary">Links Rápidos</h4>
             <ul className="space-y-4 text-muted-foreground text-sm">
-              <li><Link href="#beneficios" className="hover:text-primary transition-colors">Benefícios</Link></li>
-              <li><Link href="#planos" className="hover:text-primary transition-colors">Nossos Planos</Link></li>
-              <li><Link href="#faq" className="hover:text-primary transition-colors">FAQ</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Termos de Uso</Link></li>
+              <li><Link href="/sobre" className="hover:text-primary transition-colors">Sobre Nós</Link></li>
+              <li><Link href="/planos" className="hover:text-primary transition-colors">Nossos Planos</Link></li>
+              <li><Link href="/blog" className="hover:text-primary transition-colors">Blog Oficial</Link></li>
+              <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
+              <li><Link href="/contato" className="hover:text-primary transition-colors">Fale Conosco</Link></li>
             </ul>
           </div>
 

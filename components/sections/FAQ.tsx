@@ -7,30 +7,51 @@ import {
 
 const faqs = [
   {
-    question: "Funciona em qualquer internet?",
-    answer: "Sim! Recomendamos uma conexão de pelo menos 10mbps para conteúdos HD e 25mbps para conteúdos 4K para uma experiência sem travamentos."
+    question: "O que é IPTV?",
+    answer: "IPTV (Internet Protocol Television) é uma tecnologia moderna que permite a transmissão de sinais de TV via internet banda larga. Diferente da TV a cabo tradicional, o IPTV oferece alta qualidade de imagem (até 4K) e som sem a necessidade de antenas, cabos coaxiais ou instalações complexas. Tudo o que você precisa é de uma conexão estável com a internet."
   },
   {
-    question: "Tem teste grátis?",
-    answer: "Sim! Oferecemos um teste de até 6 horas para você conhecer nossa qualidade e estabilidade. Basta chamar no WhatsApp."
+    question: "IPTV é legal?",
+    answer: "Sim, a tecnologia IPTV em si é totalmente legal e utilizada em todo o mundo para distribuição de conteúdo via internet. O NB Play foca em oferecer a melhor experiência tecnológica para gerenciamento e reprodução de streams, garantindo estabilidade e qualidade superior para seus usuários."
   },
   {
-    question: "Precisa instalar aplicativo?",
-    answer: "Sim, dependendo do dispositivo. Para Smart TVs temos apps como IPTV Smarters, para Android temos app próprio e para computador via navegador ou app player."
+    question: "Como funciona IPTV na Smart TV?",
+    answer: "É muito simples! Na sua Smart TV (Samsung, LG, Android TV), basta baixar um aplicativo compatível na loja de apps (como IPTV Smarters, SSIPTV, Duplex Play, etc). Após instalar, você insere os dados de acesso (usuário e senha) que nossa equipe envia imediatamente após a assinatura. Em poucos minutos você tem acesso a todo o conteúdo."
   },
   {
-    question: "Qual a forma de pagamento?",
-    answer: "Aceitamos PIX com liberação automática através do sistema CIBRA, além de Cartão de Crédito via link de pagamento."
+    question: "Qual a melhor IPTV do Brasil?",
+    answer: "O NB Play é amplamente reconhecido como a melhor opção do mercado brasileiro atualmente. Nos destacamos pela infraestrutura de servidores dedicados que garantem 99.9% de estabilidade (anti-travamento), qualidade de imagem 4K real, e um suporte técnico humanizado e rápido via WhatsApp. Além disso, nossa grade de filmes e séries é atualizada diariamente."
+  },
+  {
+    question: "Precisa de internet muito rápida?",
+    answer: "Recomendamos uma internet de pelo menos 10 Mega para canais SD/HD e 30 Mega ou mais para desfrutar da qualidade 4K e Full HD sem interrupções. O mais importante é a estabilidade da conexão (preferencialmente via cabo de rede para TV Box/Smart TV)."
   }
 ];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
 
 export function FAQ() {
   return (
     <section id="faq" className="py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 italic">Dúvidas Frequentes</h2>
-          <p className="text-muted-foreground">Tudo o que você precisa saber antes de assinar.</p>
+          <p className="text-muted-foreground">Tudo o que você precisa saber sobre o melhor IPTV do Brasil.</p>
         </div>
 
         <Accordion type="single" collapsible className="w-full space-y-4">
